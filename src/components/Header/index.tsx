@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import ThemeToggler from "./ThemeToggler";
 import menuData from "./menuData";
+import AboutPage from "@/app/about/page";
 
 const Header = () => {
   // Navbar toggle
@@ -94,10 +95,10 @@ const Header = () => {
                 >
                   <ul className="block lg:flex lg:space-x-12">
                     <li>
-                      <Link href="">Home</Link>
+                      <Link href="/">Home</Link>
                     </li>
                     <li>
-                      <Link href="">About Us</Link>
+                      <Link href="/about">About Us</Link>
                     </li>
                     <li>
                       <Link href="">Portfolio</Link>
