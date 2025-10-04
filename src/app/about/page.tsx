@@ -57,10 +57,7 @@ const AboutPage = () => {
           <p className="text-gray-600 leading-relaxed mb-6">
             <span className="font-semibold">Fabron Structures</span> is a
             specialized structural steel detailing company delivering solutions
-            for fabricators, engineers, and contractors worldwide. Our team
-            brings technical expertise, industry knowledge, and advanced tools
-            to every project — from shop drawings and erection drawings to 3D
-            modelling and CNC/NC files.
+            for fabricators, engineers, and contractors worldwide. With a dedicated team of experienced professionals, we bring technical expertise, industry knowledge, and advanced tools to every project. Our services include shop drawings, erection drawings, connection detailing, and 3D modelling, Machine files (NC, DXF, KSS) for a wide range of commercial and industrial projects, including school buildings, institutional facilities, warehouses, and other steel structures.
           </p>
           <p className="text-gray-600 leading-relaxed mb-6">
             Proficient in Autodesk Advance Steel and Tekla Structures, we ensure
