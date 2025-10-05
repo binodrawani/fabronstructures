@@ -51,7 +51,7 @@ const CareerPage = () => {
 
       {/* Open Positions */}
       <p className="text-gray-600 text-lg px-60">
-          You can directly send us your resume at{" "}
+          Please Email us your resume to{" "}
           <a href="mailto:email@example.com" className="text-indigo-600 hover:underline">
             projects@fabronstructures.com
           </a>{" "}

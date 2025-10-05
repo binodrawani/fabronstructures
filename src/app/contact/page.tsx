@@ -39,11 +39,7 @@ const ContactPage = () => {
             <div className="space-y-6">
               <div className="flex items-center gap-4">
                 <MapPin className="w-6 h-6 text-purple-500" />
-                <span className="text-gray-700">22 street Noida, India</span>
-              </div>
-              <div className="flex items-center gap-4">
-                <Phone className="w-6 h-6 text-purple-500" />
-                <span className="text-gray-700">+91 90000 00000</span>
+                <span className="text-gray-700">Sector-4, Bokaro Steel City, Jharkhand 827004, India</span>
               </div>
               <div className="flex items-center gap-4">
                 <Mail className="w-6 h-6 text-purple-500" />

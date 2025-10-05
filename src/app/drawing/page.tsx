@@ -3,10 +3,10 @@
 import React, { useEffect, useState } from "react";
 
 const drawings = [
-  { id: 1, title: "Drawing 1", img: "/images/drawing/drawing1.png" },
-  { id: 2, title: "Drawing 2", img: "/images/drawing/drawing2.jpg" },
-  { id: 3, title: "Drawing 3", img: "/images/drawing/drawing3.jpg" },
-  { id: 4, title: "Drawing 4", img: "/images/drawing/drawing4.jpg" },
+  { id: 1, title: "Drawing 1", img: "/images/drawing/comingsoon.jpg" },
+  { id: 2, title: "Drawing 2", img: "/images/drawing/comingsoon.jpg" },
+  { id: 3, title: "Drawing 3", img: "/images/drawing/comingsoon.jpg" },
+  { id: 4, title: "Drawing 4", img: "/images/drawing/comingsoon.jpg" },
 ];
 
 const Drawing = () => {
@@ -39,7 +39,7 @@ const Drawing = () => {
             <img
               src={drawing.img}
               alt={drawing.title}
-              className="w-full h-64 object-cover"
+              className="w-full h-64 object-cover "
             />
             {/* Hover overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center opacity-0 hover:opacity-100 transition duration-300">
