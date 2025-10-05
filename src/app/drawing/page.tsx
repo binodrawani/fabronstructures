@@ -1,6 +1,8 @@
 
 "use client";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
+
 
 const drawings = [
   { id: 1, title: "Drawing 1", img: "/images/drawing/comingsoon.jpg" },
