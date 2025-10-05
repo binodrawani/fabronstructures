@@ -10,26 +10,26 @@ import { Metadata } from "next";
 const myservices = [
   {
     icon: <FaLaptopCode size={40} className="text-white" />,
-    title: "Web Development",
-    description: "Responsive and modern websites using React, Next.js, and Tailwind CSS.",
+    title: "Shop Drawings",
+    description: "From concept to fabrication, ourFrom concept to fabrication, our shop drawings bring clarity to steel structures.",
     color: "from-blue-400 to-blue-600",
   },
   {
     icon: <FaDatabase size={40} className="text-white" />,
-    title: "Backend Development",
-    description: "API development, database management, and server-side logic with .NET Core.",
+    title: "Erections drawings",
+    description: "These drawings guide erectors with clear layouts, connection details, and member positions for safe and efficient steel structure installation",
     color: "from-green-400 to-green-600",
   },
   {
     icon: <FaPalette size={40} className="text-white" />,
-    title: "UI/UX Design",
-    description: "Creative and user-friendly designs to enhance user experience.",
+    title: "3D IFC model",
+    description: "The IFC model delivers a clear 3D view of steel members and connections, reducing errors and improving accuracy in fabrication and erection",
     color: "from-pink-400 to-pink-600",
   },
   {
     icon: <FaLightbulb size={40} className="text-white" />,
-    title: "Consulting",
-    description: "Technical consulting to improve your project efficiency and scalability.",
+    title: "Advanced bill of materials and KSS report",
+    description: "Advanced BOM and KSS reports provide accurate material lists and part information, ensuring optimized procurement and fabrication planning",
     color: "from-yellow-400 to-yellow-600",
   },
 ];

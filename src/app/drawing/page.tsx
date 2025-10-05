@@ -3,10 +3,10 @@
 import React, { useEffect, useState } from "react";
 
 const drawings = [
-  { id: 1, title: "Abstract Art", img: "/drawings/drawing1.jpg" },
-  { id: 2, title: "Landscape", img: "/drawings/drawing2.jpg" },
-  { id: 3, title: "Portrait", img: "/drawings/drawing3.jpg" },
-  { id: 4, title: "Modern Art", img: "/drawings/drawing4.jpg" },
+  { id: 1, title: "Drawing 1", img: "/images/drawing/drawing1.png" },
+  { id: 2, title: "Drawing 2", img: "/images/drawing/drawing2.jpg" },
+  { id: 3, title: "Drawing 3", img: "/images/drawing/drawing3.jpg" },
+  { id: 4, title: "Drawing 4", img: "/images/drawing/drawing4.jpg" },
 ];
 
 const Drawing = () => {
